@@ -1,0 +1,15 @@
+section .container__list {
+  padding: 50px 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+section .search__input input {
+  width: 100%;
+  background-color: var(--primary--color);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: var(--text--color);
+  font-size: 1.25rem;
+}

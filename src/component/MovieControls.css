@@ -1,0 +1,39 @@
+.main-movie-card .inner-card-controls {
+  display: inline;
+  position: absolute;
+  bottom: 30px;
+  left: 7rem;
+  transform: translateX(-50%);
+  color: rgb(219, 132, 17);
+  border-radius: 5px;
+  padding: 3px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.main-movie-card:hover .inner-card-controls {
+  opacity: 1;
+}
+
+.main-movie-card {
+  position: relative;
+}
+
+.main-movie-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.main-movie-card:hover .overlay {
+  border: 3px solid var(--button--color);
+}
+
+.main-movie-card:hover .ctrl-btn:hover {
+  color: var(--button--color);
+  cursor: pointer;
+}
